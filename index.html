@@ -1,0 +1,162 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <title>企业网站实例</title>
+    <link href="style/main.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="js/setHomeSetFav.js"></script>
+    <script type="text/javascript" src="js/myfocus-2.0.1.min.js" charset="utf-8"></script><!--引入myFocus库-->
+    <script type="text/javascript">
+        myFocus.set({
+            id:'boxID',//焦点图盒子ID
+            pattern:'mF_fancy',//风格应用的名称
+            time:3,//切换时间间隔(秒)
+            trigger:'click',//触发切换模式:'click'(点击)/'mouseover'(悬停)
+            width:1000,//设置图片区域宽度(像素)
+            height:310,//设置图片区域高度(像素)
+            txtHeight:'default'//文字层高度设置(像素),'default'为默认高度，0为隐藏
+        });
+    </script>
+</head>
+<body>
+<div class="top">
+    <div class="top_content">
+        <ul>
+            <li><a href="#">联系我们</a></li>
+            <li><a href="#">设为首页</a></li>
+            <li><a href="#">加入收藏</a></li>
+        </ul>
+    </div>
+</div><!--页面顶端top结束-->
+<div class="wrap">
+    <div class="logo">
+        <div class="logo_left"><img src="images/logo.jpg" alt=""/></div>
+            <div class="logo_right"><img src="images/tel.jpg"/>24小时服务热线：<span class="tel">123-456-789</span> </div>
+    </div><!-- logo结束-->
+</div>
+<div class="nav">
+    <div class="navleft"></div>
+    <div class="nav_left">
+        <ul>
+                <li><a href="#">首页</a></li>
+                <li><a href="list.html">关于慕课</a></li>
+                <li><a href="list.html">新闻动态</a></li>
+                <li><a href="list.html">课程中心</a></li>
+                <li><a href="list.html">在线课程</a></li>
+                <li><a href="list.html">人才招聘</a></li>
+        </ul>
+    </div>
+    <div class="nav_right">
+        <form action="" method="post">
+            <input type="text" class="search_text"/>
+        </form>
+        <div class="navright">
+            <img src="images/search.jpg" alt=""/>
+        </div>
+    </div>
+</div><!-- 导航栏结束 -->
+<div class="ad">
+    <div id="boxID">
+        <div class="pic">
+            <ul>
+                <li><a href="#"><img src="images/ad2.jpg" thumb="" alt="" text="详细描述2" /></a></li>
+                <li><a href="#"><img src="images/ad3.jpg" thumb="" alt="" text="详细描述3" /></a></li>
+                <li><a href="#"><img src="images/ad4.jpg" thumb="" alt="" text="详细描述4" /></a></li>
+                <li><a href="#"><img src="images/ad3.jpg" thumb="" alt="" text="详细描述5" /></a></li>
+            </ul>
+        </div>
+    </div>
+</div><!-- ad结束-->
+<div class="main">
+    <div class="new1">
+        <div class="title">
+            <div class="title_left">新闻中心</div>
+            <span class="title_right"><a href="#">More>></a></span>
+        </div>
+        <div class="top1">
+            <img src="images/news.jpg" alt=""/>
+            <h3><a href="#">520慕女神来表白</a></h3>
+            <span class="sp1">活动时间:2017-05-20---2017-06-29<br></span>
+            <span class="sp1">获奖公布时间:2017-05-22<br></span>
+            <span class="sp1"><a href="#">Learn More >></a></span>
+        </div>
+        <div class="content1 clearfix">
+            <ul>
+                <li><span>2014-06-01</span> <a href="news.html">【慕客访谈 用户篇】“有为?丝”在路上</a></li>
+                <li><span>2014-06-01</span><a href="news.html">【有奖活动】给父亲的三行书信</a></li>
+                <li><span>2014-05-30</span><a href="news.html">《程序猿，请晒出你的童年》活动获奖公告</a></li>
+                <li><span>2014-05-28</span><a href="news.html" >程序猿，请晒出你的童年》活动获奖公</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="new2">
+        <div class="title">
+            <div class="title_left">课程</div>
+            <span class="title_right"><a href="#">More>></a></span>
+        </div>
+        <div class="top1">
+            <img src="images/css.jpg">
+            <h3><a href="#">CSS圆角进化论</a></h3>
+            <span class="sp2">CSS圆角的实现，经历了三大发展阶段：背景图片方式、CSS2.0+HTML标签模拟、CSS3.0圆角属性）。本案例详细讲解每一种的实现方式，并对实现的优缺点进行对比分析。<br></span>
+        </div>
+        <div class="clearfix"></div>
+        <div class="content2">
+            <ul>
+                <li>PHP开发</li>
+                <li>前端开发</li>
+                <li>JAVA开发</li>
+                <li>Android开发</li>
+            </ul>
+        </div>
+    </div>
+    <div class="new3">
+        <div class="title">
+            <div class="title_left">媒体聚焦</div>
+            <span class="title_right"><a href="#">More>></a></span>
+        </div>
+        <div class="video1">
+            <embed src='http://player.youku.com/player.php/sid/XMjgzNzM5MzkyOA==/v.swf' allowFullScreen='true' quality='high' width='284' height='200' align='middle' allowScriptAccess='always' type='application/x-shockwave-flash'></embed>
+        </div>
+        <div class="content1"></div>
+    </div>
+</div><!-- main结束-->
+<div class="foot1">
+    <div class="foot2 ">
+        <ul>
+            <li class="li1">关于
+                <ul>
+                    <li>品牌故事</li>
+                    <li>联系我们</li>
+                    <li>加入我们</li>
+                    <li>版权声明</li>
+                </ul>
+            </li>
+            <li>课程
+                <ul>
+                    <li>PHP开发</li>
+                    <li>前端开发</li>
+                    <li>JAVA开发</li>
+                    <li>Android开发</li>
+                </ul>
+            </li>
+            <li>关注
+                <ul>
+                    <li>新浪微博</li>
+                    <li>腾讯微博</li>
+                    <li>企业微信</li>
+                    <li>QQ空间</li>
+                </ul>
+            </li>
+            <li>留言
+                <ul>
+                    <li>意见反馈</li>
+                    <li>问题留言</li>
+                    <li>媒体联络</li>
+                    <li>在线客服</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
